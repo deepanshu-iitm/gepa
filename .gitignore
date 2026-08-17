@@ -145,7 +145,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .envrc
 .venv
 env/
@@ -217,3 +216,9 @@ runs/
 outputs/
 gepa_terminus/
 archive/
+
+# Local MLflow tracking artifacts (TrackingConfig(use_mlflow=True))
+mlflow.db
+mlruns/
+config.bat
+node_modules
