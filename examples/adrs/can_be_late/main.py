@@ -7,6 +7,7 @@ instance, a reliable ON_DEMAND instance, or wait — aiming to complete a task
 before its deadline at minimum cost.
 """
 
+import utils.session
 import json
 import logging
 import os
